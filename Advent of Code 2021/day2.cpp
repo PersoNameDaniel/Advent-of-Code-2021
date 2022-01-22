@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-	string direction[1000];		//Recieving input
+	string direction[1000];		//Recieving input (someone else's code, idk)
 	short loop = 0;
 	string line;
 	ifstream myfile("day2Input.txt");
