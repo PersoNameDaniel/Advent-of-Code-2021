@@ -46,6 +46,8 @@ int main() {
 			distance = direction[arrayCounter].at(8);			//getting distance value from string
 			position = position + distance;						//adding value to distance
 			cout << "<forward> " << distance << endl;			//debug output
+			cout << position << endl;	//delete me
+			break;						//delete me
 		}
 		if (variableLength != 4 && variableLength != 6 && variableLength != 9) {		//if loop checking for any values with wrong length
 			cout << "Variable Length is: " << variableLength << endl;					//outputting variable length that caused error
