@@ -49,6 +49,7 @@ int main() {
 		}
 		if (variableLength != 4 && variableLength != 6 && variableLength != 9) {		//if loop checking for any values with wrong length
 			cout << "Variable Length is: " << variableLength << endl;					//outputting variable length that caused error
+			cout << "Variable position is: " << arrayCounter + 1 << endl;				//outputting variable line that caused error
 			cout << "Error" << endl;													//outputting "error"
 			break;																		//stopping code
 		}
